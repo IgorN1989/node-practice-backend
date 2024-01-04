@@ -1,11 +1,6 @@
 import mongoose from "mongoose";
-
 import app from "./app.js";
-
-// VQQQLHPjxlxuaZ7Y
-
-const DB_HOST =
-  "mongodb+srv://IgorN1989:VQQQLHPjxlxuaZ7Y@cluster0.btkirmo.mongodb.net/my-movies?retryWrites=true&w=majority";
+import { DB_HOST } from "./config.js";
 
 mongoose
   .connect(DB_HOST)
